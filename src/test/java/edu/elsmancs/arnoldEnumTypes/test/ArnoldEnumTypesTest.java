@@ -41,13 +41,13 @@ public class ArnoldEnumTypesTest {
 	@Test
 	public void PlanetaGetMasaTest() {
 		Planeta planeta = Planeta.MERCURY;
-		assertThat(planeta.getMasa()).isEqualTo(3.303e+23);
+		assertThat(planeta.getMasaPlaneta()).isEqualTo(3.303e+23);
 	}
 
 	@Test
 	public void PlanetaGetRadioTest() {
 		Planeta planeta = Planeta.MERCURY;
-		assertThat(planeta.getRadio()).isEqualTo(2.4397e+6);
+		assertThat(planeta.getRadioPlaneta()).isEqualTo(2.4397e+6);
 	}
 
 	@Test
@@ -63,7 +63,7 @@ public class ArnoldEnumTypesTest {
 		double pesoHumano = 175;
 		assertEquals(66.107583, planeta.MERCURY.pesoSuperficie(pesoHumano), 0.001);
 	}
-
+/*
 	@Test
 	public void ArrayPlanetasTerrestresTest() {
 
@@ -99,5 +99,5 @@ public class ArnoldEnumTypesTest {
 			assertThat(planeta.name()).isIn(gigantesGaseosos);
 		}
 	}
-
+*/
 }
